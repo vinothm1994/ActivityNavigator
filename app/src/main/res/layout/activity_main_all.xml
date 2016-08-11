@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#9C27B0"
+    tools:context="com.example.vinoth.activitynavigator.ProductMainActivity"
+    android:orientation="vertical"
+    android:id="@+id/llmainlayout">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="right" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp">
+
+                <ImageButton
+                  android:src="@drawable/calculator"
+                    android:onClick="calcula"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Launch Calculator"
+                    android:id="@+id/btncalc"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_orange"
+                    />
+                <ImageButton
+                    android:src="@drawable/greetuser"
+                    android:onClick="GreetUser1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Launch GreetUser"
+                    android:id="@+id/btnGreetUser"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_pink"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp">
+
+                <ImageButton
+                    android:src="@drawable/beanchmark"
+                    android:onClick="benchmark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Launch BeanchMarking"
+                    android:id="@+id/btnBeanch"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_red" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp">
+
+                <ImageButton
+                    android:src="@drawable/intent"
+                    android:onClick="intent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Intent Calling"
+                    android:id="@+id/btnIntent"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_red"/>
+
+                <ImageButton
+                    android:src="@drawable/activitylifecycle"
+                    android:onClick="ActivityLifecycle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ActivityLifecycle"
+                    android:id="@+id/btnALC"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_yellow"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <ImageButton
+                    android:src="@drawable/invenrmanagement"
+                    android:onClick="ProductActivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FF0097"
+                    android:id="@+id/btnProductActivity"
+                    android:layout_weight="1"
+                    android:clickable="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="0dp">
+
+                <ImageButton
+                    android:src="@drawable/instantgram"
+                    android:onClick="InstangramClone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="InstangramClone"
+                    android:id="@+id/button8"
+                    android:background="#00A300"
+                    android:layout_weight="1"
+                    android:clickable="false" />
+
+                <ImageButton
+                    android:src="@drawable/animation"
+                    android:onClick="Animation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Animation"
+                    android:background="#603CBA"
+                    android:id="@+id/btnAnimation"
+                    android:layout_weight="1"
+                    android:clickable="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:src="@drawable/shacke"
+                    android:onClick="shakeplay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton3"
+                    android:layout_weight="2"
+                    android:background="#2D89EF" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="0dp">
+
+                <ImageButton
+                    android:src="@drawable/gps"
+                    android:onClick="gpsdata"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="gps"
+                    android:id="@+id/button9"
+                    android:background="#fff312"
+                    android:layout_weight="1"
+                    android:clickable="false" />
+
+                <ImageButton
+                    android:src="@drawable/sensor"
+                    android:onClick="sensordetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Animation"
+                    android:background="#00ABA9"
+                    android:id="@+id/btnAnimation8"
+                    android:layout_weight="1"
+                    android:clickable="false" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="movielist"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/movelist"
+                    android:text="Moivelist"
+                    android:background="@drawable/btn_pink"
+                    android:layout_weight="1" />
+                <Button
+                    android:onClick="superhero"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btn1"
+                    android:text="listview superhero"
+                    android:background="@drawable/btn_orange"
+                    android:layout_weight="1" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp">
+
+                <Button
+                    android:onClick="googlemap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Launch GoogleMap"
+                    android:id="@+id/btnMap"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_red" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <Button
+                    android:onClick="webbrowser"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/webbrower"
+                    android:text="webbrowser"
+                    android:background="@drawable/btn_pink"
+                    android:layout_weight="1" />
+                <Button
+                    android:onClick="splash"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btn2"
+                    android:text="SplashActivity"
+                    android:background="@drawable/btn_orange"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>
