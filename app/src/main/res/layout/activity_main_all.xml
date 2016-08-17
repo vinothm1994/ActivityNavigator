@@ -113,7 +113,7 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="0dp">
+                android:padding="5dp">
 
                 <ImageButton
                     android:src="@drawable/instantgram"
@@ -141,7 +141,8 @@
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:padding="5dp">
 
                 <ImageButton
                     android:src="@drawable/shacke"
@@ -157,7 +158,7 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="0dp">
+                android:padding="5dp">
 
                 <ImageButton
                     android:src="@drawable/gps"
@@ -184,7 +185,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="5dp">
 
                 <Button
                     android:onClick="movielist"
@@ -207,7 +209,7 @@
                 android:orientation="horizontal"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:padding="2dp">
+                android:padding="5dp">
 
                 <Button
                     android:onClick="googlemap"
@@ -216,19 +218,20 @@
                     android:text="Launch GoogleMap"
                     android:id="@+id/btnMap"
                     android:layout_weight="1"
-                    android:background="@drawable/btn_red" />
+                    android:background="#FF0097" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="5dp">
                 <Button
                     android:onClick="webbrowser"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:id="@+id/webbrower"
                     android:text="webbrowser"
-                    android:background="@drawable/btn_pink"
+                    android:background="#2D89EF"
                     android:layout_weight="1" />
                 <Button
                     android:onClick="splash"
@@ -236,10 +239,47 @@
                     android:layout_height="match_parent"
                     android:id="@+id/btn2"
                     android:text="SplashActivity"
-                    android:background="@drawable/btn_orange"
+                    android:background="#603CBA"
                     android:layout_weight="1" />
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="5dp">
+                <Button
+                    android:onClick="compas"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btn"
+                    android:text="compas"
+                    android:layout_weight="1"
+                    android:background="#9F00A7" />
+                <Button
+                    android:onClick="tts"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btn4"
+                    android:text="TTS"
+                    android:background="#00ABA9"
+                    android:layout_weight="1" />
 
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="5dp">
+                <Button
+                    android:onClick="speakToText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Speak To Text"
+                    android:id="@+id/btn5"
+                    android:background="#B91D47" />
+
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 
