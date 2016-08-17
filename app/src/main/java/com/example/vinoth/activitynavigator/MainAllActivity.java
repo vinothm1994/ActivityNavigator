@@ -139,4 +139,19 @@ public class MainAllActivity extends AppCompatActivity {
         Intent intent=new Intent(getBaseContext(),SplashActivity.class);
         startActivity(intent);
     }
+
+    public void compas(View view) {
+        Intent intent=new Intent(getBaseContext(),Compas_Activity.class);
+        startActivity(intent);
+    }
+
+    public void speakToText(View view) {
+        Intent intent=new Intent(getBaseContext(),SpeakToText.class);
+        startActivity(intent);
+    }
+
+    public void tts(View view) {
+        Intent intent=new Intent(getBaseContext(),TTS.class);
+        startActivity(intent);
+    }
 }
